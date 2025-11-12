@@ -71,7 +71,7 @@ export function Footer() {
                 { name: "Research", href: "#research" },
                 { name: "Experience", href: "#experience" },
                 { name: "Projects", href: "#projects" },
-                { name: "Skills", href: "#skills" },
+                // { name: "Skills", href: "#skills" },
                 { name: "Contact", href: "#contact" },
               ].map((link) => (
                 <button
@@ -105,10 +105,10 @@ export function Footer() {
                 <Mail className="h-4 w-4 text-[#3A86FF]" />
                 <span className="text-slate-300">{personalInfo.email}</span>
               </div>
-              <div className="flex items-center space-x-3 text-sm">
+              {/* <div className="flex items-center space-x-3 text-sm">
                 <Phone className="h-4 w-4 text-[#3A86FF]" />
-                {/* <span className="text-slate-300">{personalInfo.phone}</span> */}
-              </div>
+                <span className="text-slate-300">{personalInfo.phone}</span>
+              </div> */}
               <div className="flex items-center space-x-3 text-sm">
                 <MapPin className="h-4 w-4 text-[#3A86FF]" />
                 <span className="text-slate-300">{personalInfo.location}</span>
