@@ -92,10 +92,10 @@ export function AboutSection() {
 
 
                   <div className="space-y-2">
-                    <h4 className="font-semibold">BE in Aerospace Engineering</h4>
-                    {/* <p className="text-muted-foreground">
+                    <h4 className="font-semibold">Bachelor of Engineering</h4>
+                    <p className="text-muted-foreground">
                       Aerospace Engineering
-                    </p> */}
+                    </p>
                     <p className="text-sm text-muted-foreground">
                       IOE Pulchowk, Tribhuvan University, Nepal
                     </p>
