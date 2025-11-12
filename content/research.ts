@@ -24,6 +24,7 @@ export const researchProjects: ResearchProject[] = [
   {
     id: "bristled-wings-aerodynamics",
     title: "Aerodynamics of Bristled Wings",
+    image: "/research/bristled_wings.png",
     period: "2024/03 – 2024/06",
     institution: "FOSSEE, IIT Bombay",
     supervisor: "Dr. Chandan Bose",
@@ -35,9 +36,11 @@ export const researchProjects: ResearchProject[] = [
     links: {
       paper: "https://cfd.fossee.in/case-study-project/case-study-run/270",
     },
+    
   },
   {
     id: "piv-setup-fabrication",
+    image: "research/piv.jpeg",
     title:
       "Fabrication of Particle Image Velocimetry (PIV) Setup for Low Reynolds Number",
     period: "2022/06 – 2023/03",

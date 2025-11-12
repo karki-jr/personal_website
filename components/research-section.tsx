@@ -53,6 +53,10 @@ function ResearchCard({ project, index }: ResearchCardProps) {
     >
       <Card className="h-full bg-card/50 backdrop-blur-sm border-border/50 hover:border-[#5BC0BE]/30 transition-all duration-300 hover:shadow-lg hover:shadow-[#5BC0BE]/10">
         <CardHeader className="space-y-4">
+
+
+
+
           <div className="flex items-start justify-between">
             <div className="space-y-2">
               <CardTitle className="font-display text-xl leading-tight group-hover:text-[#5BC0BE] transition-colors">
@@ -63,7 +67,7 @@ function ResearchCard({ project, index }: ResearchCardProps) {
                   <Calendar className="h-3 w-3" />
                   <span>{project.period}</span>
                 </div>
-                <Badge
+                {/* <Badge
                   variant={
                     project.status === "ongoing" ? "default" : "secondary"
                   }
@@ -74,10 +78,18 @@ function ResearchCard({ project, index }: ResearchCardProps) {
                   }
                 >
                   {project.status}
-                </Badge>
+                </Badge> */}
               </div>
             </div>
           </div>
+
+          {project.image && (
+            <img
+              src={project.image}
+              alt={project.title}
+              className="w-full h-48 object-cover rounded-xl"
+            />
+          )}          
 
           <div className="space-y-2">
             <div className="flex items-center space-x-2 text-sm">

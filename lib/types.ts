@@ -13,6 +13,7 @@ export interface ResearchProject {
     code?: string
     demo?: string
   }
+  image?: string;
 }
 
 export interface Experience {
