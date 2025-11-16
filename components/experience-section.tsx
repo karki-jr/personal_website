@@ -104,15 +104,15 @@ function VolunteeringSection() {
     {
       title: "VETOMAC Students' Committee",
       period: "2022",
-      description:
-        "Led student activities and managed logistics for vibration engineering events and workshops.",
+      description:"",
+        // "Led student activities and managed logistics for vibration engineering events and workshops.",
       role: "Committee Member",
     },
     {
       title: "MechTRIX 2020",
       period: "2020",
-      description:
-        "Volunteered for water-rocket competition, assisting with event coordination and technical support.",
+      description:"",
+        // "Volunteered for water-rocket competition, assisting with event coordination and technical support.",
       role: "Volunteer",
     },
   ];
