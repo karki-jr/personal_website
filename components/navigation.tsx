@@ -22,7 +22,7 @@ const navItems = [
   { name: "Blog", href: "#blog", icon: Code },
   { name: "Experience", href: "#experience", icon: Briefcase },
   { name: "Projects", href: "#projects", icon: Code },
-  { name: "Skills", href: "#skills", icon: Star },
+  // { name: "Skills", href: "#skills", icon: Star },
   { name: "Contact", href: "#contact", icon: Mail },
 ];
 
