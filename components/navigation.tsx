@@ -19,7 +19,7 @@ import { ScrollProgress } from "./scroll-progress";
 const navItems = [
   { name: "About", href: "#about", icon: Home },
   { name: "Research", href: "#research", icon: BookOpen },
-  { name: "Blog", href: "#blog", icon: Code },
+  { name: "Blog", href: "#blog", icon: Star },
   { name: "Experience", href: "#experience", icon: Briefcase },
   { name: "Projects", href: "#projects", icon: Code },
   // { name: "Skills", href: "#skills", icon: Star },
