@@ -68,6 +68,7 @@ export function Footer() {
             <div className="grid grid-cols-2 gap-2">
               {[
                 { name: "About", href: "#about" },
+                { name: "Blog", href: "#blog" },
                 { name: "Research", href: "#research" },
                 { name: "Experience", href: "#experience" },
                 { name: "Projects", href: "#projects" },
