@@ -11,7 +11,7 @@ export const personalInfo: PersonalInfo = {
   tagline:
     "PhD Student in Aerospace Engineering at the University of Birmingham",
   bio: [
-    "Hi, My name is Yukesh Karki. I completed my Bachelor's degree in Aerospace engineering from IOE Pulchowk, Tribhuvan Univeristy, Nepal. I am driven by deep curiosity abouth how flight works and how air interacts with moving objects, which has shaped my interest in study the aerodynamic challenges.",
+    "Hi, My name is Yukesh Karki. I completed my Bachelor's degree in Aerospace engineering from IOE Pulchowk, Tribhuvan Univeristy, Nepal. I am driven by deep curiosity about how flight works and how air interacts with moving objects, which has shaped my interest in studying the aerodynamic challenges.",
     "My research focuses on aerodynamics and fluid-structure interaction problems, specially in low Reynolds number flows and flexible wing aerodynamics."
    ],
   languages: [
